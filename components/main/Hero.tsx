@@ -3,7 +3,9 @@ import HeroContent from '../sub/HeroContent'
 
 const Hero = () => {
  return (
-    <div className='relative flex flex-col h-full w-full'>
+    <div className='relative flex flex-col h-full w-full'
+    id="about-me"
+    >
       <video
       autoPlay
       muted
@@ -17,4 +19,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
