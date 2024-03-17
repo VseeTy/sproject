@@ -4,6 +4,14 @@
 @tailwind utilities;
 
 
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 .cursive {
   font-family: "Cedarville Cursive", cursive;
@@ -36,6 +44,51 @@
   transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
 }
 
+.navbar{
+  font-family: 'Popins',sans-serif;
+}
+
+.cursor-pointer{
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #dddddd;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.navtext{
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #dddddd;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.navtext:after{
+  content: "";
+  position: absolute;
+  background-color: #49048a;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -2px;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+.navtext:hover{
+  color: #ffffff;
+}
+
+.navtext:hover:after{
+  width: 100%;
+}
+
+
+
 .button-primary {
   background: linear-gradient(
       180deg,
@@ -44,6 +97,7 @@
     ),
     rgba(113, 47, 255, 0.12);
   box-shadow: inset 0 0 12px #bf97ff3d;
+  transition: 0.3s;
 }
 .button-primary:hover {
   background: linear-gradient(
@@ -63,7 +117,6 @@
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
-
 
 
 html {

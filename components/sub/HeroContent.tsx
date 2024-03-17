@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Students at 
+            Student at Lycée Robert Schuman Metz
           </h1>
         </motion.div>
 
@@ -44,10 +44,9 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-white my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          My name is Mathéo, for now im a studen for Lycée Robert Schuman at Metz. So as you can see, I'm still studying. Later on I plan to do a master's degree in engineering. I really like computers and everything that goes with them. I've been seriously interested in it for over 3 years. During these 3 years I have acquired skills in Lua, HTML, CSS and other software such as Photoshop, Adobe Premire Pro and Adobe After Effect. And I'm starting to learn C++.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

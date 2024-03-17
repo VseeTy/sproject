@@ -16,50 +16,50 @@ const Footer = () => {
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 
 
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-50">
                     <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="https://www.youtube.com/channel/UCT1FYM0y0yVWZSeqVRn4pSQ" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    </a>
+                    <a href="https://github.com/VseeTy" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    </a>
+                    <a href="https://discord.com/" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
+                    </a>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-50">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
+                    <a href="https://www.instagram.com/" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <RxInstagramLogo />
                         <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
+                    </a>
+                    <a href="https://twitter.com/home" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <RxTwitterLogo />
                         <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
+                    </a>
+                    <a href="https://fr.linkedin.com/" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <RxLinkedinLogo />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                    </p>
+                    </a>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-50">
                     <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                   <a href="https://lafuria.fr/" target="_blank" className="flex flex-row items-center my-[15px] cursor-pointer">
                      
                         <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    </a>
+                    <a href="#about-me" className="flex flex-row items-center my-[15px] cursor-pointer">
                       
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    </a>
+                    <a href="mailto:matheo.duca@gmail.com" className="flex flex-row items-center my-[15px] cursor-pointer">
                   
                         <span className="text-[15px] ml-[6px]">matheo.duca@gmail.com</span>    
-                    </p>
+                    </a>
                 </div>
             </div>
 
